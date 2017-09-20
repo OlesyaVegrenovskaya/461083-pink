@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Olesya Vegrenovskaya](https://up.htmlacademy.ru/adaptive/12/user/461083).
-* Наставник: [Артур Мирзоян](https://htmlacademy.ru/profile/id302093) 
+* Наставник: [Артур Мирзоян](https://htmlacademy.ru/profile/id302093). 
 
 ---
 
