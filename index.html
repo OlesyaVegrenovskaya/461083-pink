@@ -5,11 +5,11 @@
     <title>Приложение "PINK"</title>
   </head>
   <body>
-<header class="page-header">
-  <nav class="main-nav">
-  <a class="page-header__logo">
+   <header class="page-header">
+   <nav class="main-nav">
+   <a class="page-header__logo">
     <img class="page-header__logo-image" src="http://placehold.it/150x100" alt="Pink">
-  </a>
+   </a>
     <button class="main-nav__toggle" type="button"> Открыть меню </button>
      <div class="main-nav__wrapper">
       <div class="main-nav_header">
@@ -25,44 +25,47 @@
      </div>
   </nav>
   <img class="page-header__iphone" src="http://placehold.it/150x100" alt="iphone">
-  <img class="page-header__screen" src="http://placehold.it/150x100" alt="screen">
-  <button class="page-header__toggle" type="button"> Cкачать меню </button>
+  <img class="page-header__screen" src="http://placehold.it/150x100" alt="screen"> <br>
+  <button class="page-header__toggle" type="button"> Cкачать приложение </button>
   <section class="page-header__footer">
-    <ul class="page-header_list avialability-list">
-      <li class="avialability-list__item"> <img class="page-header__apple" src="http://placehold.it/150x100" alt="Apple">  </li>
-      <li class="avialability-list__item"> <img class="page-header__anroid" src="http://placehold.it/150x100" alt="Android">  </li>
-      <li class="avialability-list__item"> <img class="page-header__windows" src="http://placehold.it/150x100" alt="Windows">  </li>
+    <ul class="page-header__list avialability-list">
+      <li class="avialability-list__item item"> <img class="item__apple" src="http://placehold.it/150x100" alt="Apple">  </li>
+      <li class="avialability-list__item item"> <img class="item__anroid" src="http://placehold.it/150x100" alt="Android">  </li>
+      <li class="avialability-list__item item"> <img class="item__windows" src="http://placehold.it/150x100" alt="Windows">  </li>
     </ul>
     <p> Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows8 </p>
   </section>
 </header>
 <main class="page-main">
   <h1 class="visually-hidden"> Что есть приложение PINK?</h1>
-  <p> Устали от серости  мегаполиса? </p>
-  <p> Нам есть, что вам  предложить! </p>
-  <h2 class="visually-hidden"> Что делает приложение PINK? </h2>
-  <ul class="page-main_list act-list">
-    <li class="act-list_item">
-      <h3>Поднимает настроение</h3>
-      <p>Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов </p>
-    </li>
-    <li class="act-list_item">
-      <h3>Меняет мир вокруг</h3>
-      <p>Сделайте снимок и украсьте его смайликом или текстовой подписью,чтобы усилить эффэкт </p>
-    </li>
-    <li class="act-list_item">
-      <h3> Заводит новых друзей </h3>
-      <p> Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых </p>
-    </li>
-  </ul>
-  <img class="page-main__iphone-screen" src="http://placehold.it/150x100" alt="Всем привет">
+   <section class="page-main__question question">
+    <p class="question__item"> Устали от серости  мегаполиса? </p>
+    <p class="question__offer"> Нам есть, что вам  предложить! </p>
+   </section>
+   <section class="page-main__act act-list">
+    <h2 class="visually-hidden"> Что делает приложение PINK? </h2>
+    <ul class="act-list__list">
+      <li class="act-list__item">
+        <h3>Поднимает настроение</h3>
+        <p>Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов </p>
+      </li>
+      <li class="act-list__item">
+        <h3>Меняет мир вокруг</h3>
+        <p>Сделайте снимок и украсьте его смайликом или текстовой подписью,чтобы усилить эффэкт </p>
+      </li>
+      <li class="act-list__item">
+        <h3> Заводит новых друзей </h3>
+        <p> Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых </p>
+      </li>
+    </ul>
+    <img class="page-main__iphone-screen" src="http://placehold.it/150x100" alt="Всем привет">
     <section class="reviews">
       <div class="reviews__wrapper slider">
         <h2 class="visually-hidden">Отзывы о нас</h2>
-        <div class="reviews__list slider_list">
-          <blockquote class="reviews__item slider_item">
-            <p class="reviews__author-name">Николай Петров</p>
-            <p class="reviews__text">"Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии"</p>
+        <div class="slider__list ">
+          <blockquote class="slider__item ">
+            <p class="slider__item__author-name">Николай Петров</p>
+            <p class="slider__item__text"><q>Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии</q></p>
           </blockquote>
         </div>
         <p class="reviews__toggles slider__toggles">
@@ -72,21 +75,21 @@
         </p>
        </div>
     </section>
-    <section class="price-list">
-      <div class="price-list__wrapper">
-        <p class="price-list__label"> Xит </p>
-        <p class="price-list__package"> Стандарт <p>
-        <p class="price-list__price"> 3,99 USD </p>
+    <section class="page-main__price-list price">
+      <div class="price__wrapper price-item">
+        <p class="price-item__label"> Xит </p>
+        <p class="price-item__package"> Стандарт <p>
+        <p class="price-item__price"> 3,99 USD </p>
       </div>
       <table class="package">
-       <tr>
-         <td class="package-item"> Розовый фильтр </td>
+       <tr class="package__item">
+         <td > Розовый фильтр </td>
        </tr>
-       <tr>
-         <td class="package-item"> Смайлики </td>
+       <tr class="package-item">
+         <td > Смайлики </td>
        </tr>
-       <tr>
-         <td class="package-item"> Комментарии </td>
+       <tr class="package-item">
+         <td > Комментарии </td>
        </tr>
       </table>
       <p class="price-list__toggles slider__toggles">
@@ -98,21 +101,22 @@
    </main>
    <footer class="main-footer">
     <p class="main-footer__text"> Остались вопросы? Свяжитесь с нами!</p>
-    <ul class="main-footer_contacts">
-      <li class="contacts-item__phone">
-        <span class="phone"> Звоните: </span>
-        <p class="text"> +7 (812) 555-66-66 </p>
+    <ul class="main-footer__contacts contacts-item">
+      <li class="contacts-item__phone phone-item">
+        <span class="phone-item__call"> Звоните: </span>
+        <p class="phone-item__number"> +7 (812) 555-66-66 </p>
       </li>
-      <li class="contacts-item__email">
-        <span class="email"> Пишите </span>
-        <p class="text">mail@htmlacademy.ru</p>
+      <li class="contacts-item__email email-item">
+        <span class="email-item__wright"> Пишите </span>
+        <p class="email-item__mail">mail@htmlacademy.ru</p>
       </li>
-      <li class="contacts-item__address">
-        <span class="contacts-item__address"> Приезжайте в гости: </span>
-        <p class="text"> ул. Большая Конюшенная, 19/8 </p>
+      <li class="contacts-item__address-item">
+        <span class="adress-item__invitation"> Приезжайте в гости: </span>
+        <p class="adress-item__address"> ул. Большая Конюшенная, 19/8 </p>
       </li>
     </ul>
     <img class="main-footer__map" src="http://placehold.it/150x100" alt="191186, Санкт-Петербург ул.Б.Конюшенная. д. 19/8">
+    <p class="main-footer__point"> Тут мы находимся </p>
    </footer>
   </body>
 </html>
