@@ -14,7 +14,7 @@
         <div class="main-nav__wrapper">
           <div class="main-nav__header">
             <img class="header__logo-image" src="http://placehold.it/150x100" alt="Pink">
-            <button class="header__close" type="button">Закрыть</button>
+            <button class="menu__close" type="button">Закрыть</button>
           </div>
           <ul class="main-nav_list site-list">
             <li class="site-list__item"> <a href="#">Главная</a> </li>
@@ -33,13 +33,13 @@
        <form action="https://echo.htmlacademy.ru" method="post">
        <section class="page-main__info personal-info">
         <p class="personal-info__text"> Поделитесь своей историей и получите шанс выиграть ценный приз-1000 миль ны вашу бонусную карту! </p>
-        <p class="presonal-info__surname surname"> Фамилия  <br> <input class="surname__item"  type="text" name="surname" value="" placeholder="Указать фамилию * "> </p>
-        <p class="presonal-info__name name"> Имя <br>  <input class="name__item" type="text" name="name" value="" placeholder="Введите ваше имя *"> </p>
-        <p class="personal-info__patronymic patronymic"> Отчество <br> <input class="patronymic__item"  name="patronymic" value="" placeholder="Ну и отчество тоже"> </p>
+        <p class="presonal-info__item"> Фамилия  <br> <input class="item"  type="text" name="surname" value="" placeholder="Указать фамилию * " required.> </p>
+        <p class="presonal-info__item"> Имя <br>  <input class="item" type="text" name="name" value="" placeholder="Введите ваше имя *" required.> </p>
+        <p class="personal-info__item"> Отчество <br> <input class="item"  name="patronymic" value="" placeholder="Ну и отчество тоже"> </p>
        </section>
        <section class="page-main__achievements achievements">
          <p class="achievements__text"> Ваши безбашенные достиджения в путешествии </p>
-          <ul class="achievements__list">
+          <ul class="achievements-list">
            <li class="achievements__filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="selfie_shark" checked> Сделали селфи с акулой </li>
            <li class="achievements__filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="sunbern" checked> Обгорел на пляже </li>
            <li class="achievements__filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Chuck Norris"> Видел Чака Норриса </li>
@@ -77,14 +77,14 @@
            <p class="page-main__note"> <sup>*</sup> - Обязательные поля </p>
        </form>
     </main>
-    <footer class="main-footer-glasses">
-      <img class="main-footer-foto__logo-glasses" src="http://placehold.it/150x100" alt="Pink_Glasses">
-      <ul class="main-footer-foto__social-list social">
+    <footer class="main-footer">
+      <img class="main-footer__logo-glasses" src="http://placehold.it/150x100" alt="Pink_Glasses">
+      <ul class="main-footer__social-list social">
         <li class="social__twitter"> <a href="#"> Твиттер </a> </li>
         <li class="social__facebook"><a href="#"> Фейсбук </a> </li>
         <li class="social__youtube"> <a href="#"> Ютуб </a> </li>
       </ul>
-      <p class="main-footer-glasses__text"> Pазработано <a><img class="main-footer__htmlacademy" src="http://placehold.it/150x100" alt="htmlacademy"></a></p>
+      <p class="main-footer-glasses__text"> Pазработано <a href="#"><img class="main-footer__htmlacademy" src="http://placehold.it/150x100" alt="htmlacademy"></a></p>
     </footer>
     <div class="error">
       <p class="error__item">Что-то не так!</p>

@@ -12,26 +12,26 @@
    </a>
     <button class="main-nav__toggle" type="button"> Открыть меню </button>
      <div class="main-nav__wrapper">
-      <div class="main-nav_header">
+      <div class="main-nav__header">
         <img class="header__logo-image" src="http://placehold.it/150x100" alt="Pink">
-        <button class="header_close" type="button">Закрыть</button>
-      <div>
-       <ul class="main-nav_list site-list">
-        <li class="site-list__item"> <a>Главная</a> </li>
-        <li class="site-list__item"> <a>Фотографии</a> </li>
-        <li class="site-list__item"> <a>Конкурс</a> </li>
-        <li class="site-list__item"> <a>Html Academy</a> </li>
+        <button class="header__close" type="button">Закрыть</button>
+      </div>
+       <ul class="nav-list site-list">
+        <li class="site-list__item"> <a href="#">Главная</a> </li>
+        <li class="site-list__item"> <a href="#">Фотографии</a> </li>
+        <li class="site-list__item"> <a href="#">Конкурс</a> </li>
+        <li class="site-list__item"> <a href="#">Html Academy</a> </li>
       </ul>
      </div>
   </nav>
-  <img class="page-header__iphone" src="http://placehold.it/150x100" alt="iphone">
-  <img class="page-header__screen" src="http://placehold.it/150x100" alt="screen"> <br>
+  <img class="banner" src="http://placehold.it/150x100" alt="iphone">
+  <img class="banner" src="http://placehold.it/150x100" alt="screen"> <br>
   <button class="page-header__toggle" type="button"> Cкачать приложение </button>
   <section class="page-header__footer">
     <ul class="page-header__list avialability-list">
-      <li class="avialability-list__item item"> <img class="item__apple" src="http://placehold.it/150x100" alt="Apple">  </li>
-      <li class="avialability-list__item item"> <img class="item__anroid" src="http://placehold.it/150x100" alt="Android">  </li>
-      <li class="avialability-list__item item"> <img class="item__windows" src="http://placehold.it/150x100" alt="Windows">  </li>
+      <li class="avialability-list__item "> <img  src="http://placehold.it/150x100" alt="Apple">  </li>
+      <li class="avialability-list__item "> <img  src="http://placehold.it/150x100" alt="Android">  </li>
+      <li class="avialability-list__item "> <img  src="http://placehold.it/150x100" alt="Windows">  </li>
     </ul>
     <p> Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows8 </p>
   </section>
@@ -92,30 +92,30 @@
          <td > Комментарии </td>
        </tr>
       </table>
-      <p class="price-list__toggles slider__toggles">
-            <button class="slider__toggle" type="button">1</button>
-            <button class="slider__toggle" type="button">2</button>
-            <button class="slider__toggle" type="button">3</button>
-      </p>
+      <ul class="price-list__toggles slider-toggles">
+        <li class="slider-toggles__item">  <button  type="button">1</button> </li>
+        <li class="slider-toggles__item">  <button  type="button">2</button> </li>
+        <li class="slider-toggles__item">  <button  type="button">3</button> </li>
+      </ul>
     </section>
    </main>
    <footer class="main-footer">
     <p class="main-footer__text"> Остались вопросы? Свяжитесь с нами!</p>
     <ul class="main-footer__contacts contacts-item">
-      <li class="contacts-item__phone phone-item">
-        <span class="phone-item__call"> Звоните: </span>
-        <p class="phone-item__number"> +7 (812) 555-66-66 </p>
+      <li class="contacts-item__phone item">
+        <span class="item__text"> Звоните: </span>
+        <a class="item__value" href="tel:+78125556666"> +7 (812) 555-66-66 </a>
       </li>
-      <li class="contacts-item__email email-item">
-        <span class="email-item__wright"> Пишите </span>
-        <p class="email-item__mail">mail@htmlacademy.ru</p>
+      <li class="contacts-item__email item">
+        <span class="item__text"> Пишите </span>
+        <a class="item__value" href="mailto:mail@htmlacademy.ru"> mail@htmlacademy.ru </a>
       </li>
-      <li class="contacts-item__address-item">
-        <span class="adress-item__invitation"> Приезжайте в гости: </span>
-        <p class="adress-item__address"> ул. Большая Конюшенная, 19/8 </p>
+      <li class="contacts-item__address item">
+        <span class="item__text"> Приезжайте в гости: </span>
+        <p class="item__value"> ул. Большая Конюшенная, 19/8 </p>
       </li>
     </ul>
-    <img class="main-footer__map" src="http://placehold.it/150x100" alt="191186, Санкт-Петербург ул.Б.Конюшенная. д. 19/8">
+    <img class="map" src="http://placehold.it/150x100" alt="191186, Санкт-Петербург ул.Б.Конюшенная. д. 19/8">
     <p class="main-footer__point"> Тут мы находимся </p>
    </footer>
   </body>
