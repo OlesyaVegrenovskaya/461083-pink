@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+ <html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Приложение "PINK" фото </title>
+  </head>
+  <body>
+    <header class="page-header">
+      <nav class="main-nav">
+        <a class="main-nav__logo" href="#">
+          <img class="main-nav__logo-image" src="http://placehold.it/150x100" alt="Pink">
+        </a>
+        <button class="main-nav__toggle" type="button"> Открыть меню </button>
+        <div class="main-nav__wrapper">
+          <div class="main-nav__header">
+            <img class="header__logo-image" src="http://placehold.it/150x100" alt="Pink">
+            <button class="menu__close" type="button">Закрыть</button>
+          </div>
+          <ul class="main-nav_list site-list">
+            <li class="site-list__item"> <a href="#">Главная</a> </li>
+            <li class="site-list__item"> <a href="#">Фотографии</a> </li>
+            <li class="site-list__item"> <a href="#">Конкурс</a> </li>
+            <li class="site-list__item"> <a href="#">Html Academy</a> </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="page-main">
+      <h1 class="visually hidden">Объявление конкурса</h1>
+       <section class="page-main_ad advert">
+         <h2 class="advert__form"> Конкурс на самое безбашенное путешествие с Пинк </h2>
+       </section>
+       <form action="https://echo.htmlacademy.ru" method="post">
+       <section class="page-main__info personal-info">
+        <h3 class="visually hidden"> Регистрация  </h3>
+        <p class="personal-info__text"> Поделитесь своей историей и получите шанс выиграть ценный приз-1000 миль ны вашу бонусную карту! </p>
+        <p class="presonal-info__item"> Фамилия  <br> <input class="item"  type="text" name="surname" value="" placeholder="Указать фамилию * " required > </p>
+        <p class="presonal-info__item"> Имя <br>  <input class="item" type="text" name="name" value="" placeholder="Введите ваше имя *" required > </p>
+        <p class="personal-info__item"> Отчество <br> <input class="item"  name="patronymic" value="" placeholder="Ну и отчество тоже"> </p>
+       </section>
+       <section class="page-main__achievements achievements">
+         <h3 class="achievements__text"> Ваши безбашенные достиджения в путешествии </h3>
+          <ul class="achievements-list">
+           <li class="achievements__filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="selfie_shark" checked> Сделали селфи с акулой </li>
+           <li class="achievements__filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="sunbern" checked> Обгорел на пляже </li>
+           <li class="achievements__filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Chuck Norris"> Видел Чака Норриса </li>
+           <li class="achievements__filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Buy Souvenirs"> Накупил сувениров </li>
+           <li class="achievements__filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Tower" checked> Удержал башню </li>
+           <li class="achievements__filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Hotel"> Разгромил отель    </li>
+          </ul>
+       </section>
+       <section class="page-main__communications personal-info">
+        <h3 class="visually hidden"> Твои контакты </h3>
+          <p class="presonal-info__item"> Номер телефона  <br> <input class="phone_item"  type="text" name="phone" value="" placeholder="Номер, пожалуйста"> </p>
+          <p class="presonal-info__item"> Адрес почты <br> <input class="mail_item" type="email" name="email" value="" placeholder="Введите почту *"> </p>
+         </section>
+         <section class="page-main__attachments attachments-list">
+          <h3 class="visually hidden"> Твоё приложение </h3>
+          <p class="attachments-list__text"> С какими приложением путешествовали? </p>
+            <ul class="attachments-list__list attachments-name ">
+              <li class="attachments-name__IOS">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="attachments-group" value="IOS" checked>
+                Pink для iOS
+              </li>
+              <li class="attachments-name__Android">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="attachments-group" value="Android" >
+                Pink на  Android
+              </li>
+              <li class="attachments-name__Windows">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="attachments-group" value="Windows">
+                Windows Phone
+              </li>
+            </ul>
+          </section>
+          <section class="page-main__emotions emotions">
+           <h3 class="visually hidden"> Твои эмоции </h3>
+           <p class="emotions__text"> Опишите свои эмоции </p>
+           <textarea name="text" placeholder="Можно прям в красках, не стесняясь в выражениях"> </textarea><br>
+           <input type="submit" value="Отправить форму">
+          </section>
+           <p class="form-note"> <sup>*</sup> - Обязательные поля </p>
+       </form>
+    </main>
+    <footer class="main-footer">
+      <img class="main-footer__logo-glasses" src="http://placehold.it/150x100" alt="Pink_Glasses">
+      <ul class="main-footer__social-list social">
+        <li class="social__inner"> <a href="#"> Твиттер </a> </li>
+        <li class="social__inner"><a href="#"> Фейсбук </a> </li>
+        <li class="social__inner"> <a href="#"> Ютуб </a> </li>
+      </ul>
+      <p class="main-footer__form"> Pазработано <a href="#"><img class="main-footer__htmlacademy" src="http://placehold.it/150x100" alt="htmlacademy"></a></p>
+    </footer>
+    <div class="error">
+      <p class="error__item">Что-то не так!</p>
+      <p class="error__instruction"> Проверьте  поля, выделенные красным, скорее всего вы забыли из заполнить </p>
+      <button class="error__button" type="button"> Ok </button>
+    </div>
+    <div class="send-application">
+      <p class="send-application__send">Ваша заявка отправлена</p>
+      <p class="send-application__text"> Спасибо за ваше участие, ваша заявка уже поступила к нам. В ближайшее время мы рассмотрим ее и оповестим вас.</p>
+      <button class="send-application__button" type="button"> Закрыть окно </button>
+    </div>
+  </body>
+  </html>
+

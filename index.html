@@ -1,12 +1,125 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
+    <meta charset="UTF-8">
+    <title>Приложение "PINK"</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
-
+   <header class="page-header">
+   <nav class="main-nav">
+   <a class="page-header__logo">
+    <img class="page-header__logo-image" src="http://placehold.it/150x100" alt="Pink">
+   </a>
+    <button class="main-nav__toggle" type="button"> Открыть меню </button>
+     <div class="main-nav__wrapper">
+      <div class="main-nav__header">
+        <img class="header__logo-image" src="http://placehold.it/150x100" alt="Pink">
+        <button class="header__close" type="button">Закрыть</button>
+      </div>
+       <ul class="nav-list site-list">
+        <li class="site-list__item"> <a href="#">Главная</a> </li>
+        <li class="site-list__item"> <a href="#">Фотографии</a> </li>
+        <li class="site-list__item"> <a href="#">Конкурс</a> </li>
+        <li class="site-list__item"> <a href="#">Html Academy</a> </li>
+      </ul>
+     </div>
+  </nav>
+  <img class="banner" src="http://placehold.it/150x100" alt="iphone">
+  <img class="banner" src="http://placehold.it/150x100" alt="screen"> <br>
+  <button class="page-header__toggle" type="button"> Cкачать приложение </button>
+  <section class="page-header__footer">
+    <h3 class="visually hidden"> Список приложений</h3>
+    <ul class="page-header__list avialability-list">
+      <li class="avialability-list__item "> <img  src="http://placehold.it/150x100" alt="Apple">  </li>
+      <li class="avialability-list__item "> <img  src="http://placehold.it/150x100" alt="Android">  </li>
+      <li class="avialability-list__item "> <img  src="http://placehold.it/150x100" alt="Windows">  </li>
+    </ul>
+    <p> Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows8 </p>
+  </section>
+</header>
+<main class="page-main">
+  <h1 class="visually-hidden"> Что есть приложение PINK?</h1>
+   <div class="page-main__question question">
+    <p class="question__item"> Устали от серости  мегаполиса? </p>
+    <p class="question__offer"> Нам есть, что вам  предложить! </p>
+   </div>
+   <section class="page-main__act act-list">
+    <h2 class="visually-hidden"> Что делает приложение PINK? </h2>
+    <ul class="act-list__list">
+      <li class="act-list__item">
+        <h3>Поднимает настроение</h3>
+        <p>Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов </p>
+      </li>
+      <li class="act-list__item">
+        <h3>Меняет мир вокруг</h3>
+        <p>Сделайте снимок и украсьте его смайликом или текстовой подписью,чтобы усилить эффэкт </p>
+      </li>
+      <li class="act-list__item">
+        <h3> Заводит новых друзей </h3>
+        <p> Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых </p>
+      </li>
+    </ul>
+    <img class="page-main__iphone-screen" src="http://placehold.it/150x100" alt="Всем привет">
+  </section>
+    <section class="reviews">
+      <div class="reviews__wrapper slider">
+        <h2 class="visually-hidden">Отзывы о нас</h2>
+        <div class="slider__list ">
+          <blockquote class="slider__item ">
+            <p class="slider__item__author-name">Николай Петров</p>
+            <p class="slider__item__text"><q>Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии</q></p>
+          </blockquote>
+        </div>
+        <p class="reviews__toggles slider__toggles">
+            <button class="slider__toggle" type="button">1</button>
+            <button class="slider__toggle" type="button">2</button>
+            <button class="slider__toggle" type="button">3</button>
+        </p>
+       </div>
+    </section>
+    <section class="page-main__price-list price">
+      <h3 class="visually hidden">Ценник</h3>
+      <div class="price__wrapper price-item">
+        <p class="price-item__label"> Xит </p>
+        <p class="price-item__package"> Стандарт <p>
+        <p class="price-item__price"> 3,99 USD </p>
+      </div>
+      <table class="package">
+       <tr class="package__item">
+         <td > Розовый фильтр </td>
+       </tr>
+       <tr class="package-item">
+         <td > Смайлики </td>
+       </tr>
+       <tr class="package-item">
+         <td > Комментарии </td>
+       </tr>
+      </table>
+      <ul class="price-list__toggles slider-toggles">
+        <li class="slider-toggles__item">  <button  type="button">1</button> </li>
+        <li class="slider-toggles__item">  <button  type="button">2</button> </li>
+        <li class="slider-toggles__item">  <button  type="button">3</button> </li>
+      </ul>
+    </section>
+   </main>
+   <footer class="main-footer">
+    <p class="main-footer__text"> Остались вопросы? Свяжитесь с нами!</p>
+    <ul class="main-footer__contacts contacts-item">
+      <li class="contacts-item__phone item">
+        <span class="item__text"> Звоните: </span>
+        <a class="item__value" href="tel:+78125556666"> +7 (812) 555-66-66 </a>
+      </li>
+      <li class="contacts-item__email item">
+        <span class="item__text"> Пишите </span>
+        <a class="item__value" href="mailto:mail@htmlacademy.ru"> mail@htmlacademy.ru </a>
+      </li>
+      <li class="contacts-item__address item">
+        <span class="item__text"> Приезжайте в гости: </span>
+        <p class="item__value"> ул. Большая Конюшенная, 19/8 </p>
+      </li>
+    </ul>
+    <img class="map" src="http://placehold.it/150x100" alt="191186, Санкт-Петербург ул.Б.Конюшенная. д. 19/8">
+    <p class="main-footer__point"> Тут мы находимся </p>
+   </footer>
   </body>
 </html>
