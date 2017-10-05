@@ -1,5 +1,6 @@
 .page-header__footer {
   background-color: @blue;
+  border: 2px solid green;
    .page-header__toggle {
     border: 4px solid #ffffff;
     height: 49px;
@@ -9,15 +10,29 @@
     font-size: @font+4px;
     font-weight:700;
     color: @white;
+    margin-left: 20px;
+    margin-top: 28px;
    }
 }
 .page-header__text {
   color: @white;
   font-size: @font;
   line-height: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .foto-upload {
-  background-image: url("../img/bg-back-mobile@12x.jpg");
+  background: url("../img/bg-back-mobile@12x.jpg");
+  background-repeat: no-repeat;
   width: 320px;
   height:396px;
+  position: relative;
+}
+
+.banner {
+  width: 257px;
+  height:287px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
