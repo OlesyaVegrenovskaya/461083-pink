@@ -21,6 +21,7 @@
 @import 'form__page-main__info';
 @import 'form__page-main__communications';
 @import 'form__page-main__emotions';
+@import 'index__page-header';
 
 
 
@@ -33,6 +34,7 @@
 
 html, body {
   font-family: 'OpenSans', sans-serif;
+  min-width: 320px;
 }
 ul {
   list-style-type: none;
@@ -44,10 +46,25 @@ ul {
   padding: 0;
  }
 .container {
-  width: 320px;
+  width: 280px;
   margin: 0 auto;
   padding: 0 20px;
 }
 .visually-hidden {
     visibility: hidden;
+    margin: 0;
 }
+/*
+@media (min-width: 768px){
+  .container {
+    width: 640px;
+    padding: 0 64px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 960px;
+    padding: 0 120px;
+  }
+}
+*/
