@@ -47,9 +47,26 @@ ul {
   min-width: 320px;
  }
 .container {
-  width: auto;
+  width: 280px;
   padding: 0 20px;
+  margin: auto;
 }
 .visually-hidden {
     visibility: hidden;
+    margin: 0;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 640px;
+    padding: 0 64px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1200px){
+  .container {
+    width: 960px;
+    padding: 0 120px;
+    margin: auto;
+  }
 }
