@@ -1,11 +1,33 @@
+
 .page-header {
+  background: url("../img/bg-back-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+
   display: flex;
   flex-direction: column;
 }
-.main-nav__header {
+.page-header__enter {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: auto;
+  padding: 20px 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.page-header__logo-tablet {
+  display: none;
+}
+@media (max-width: 768px){
+  .page-header__enter {
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+}
+.main-nav {
+  display: none;
 }
 .site-list {
   display: flex;
@@ -25,6 +47,7 @@
   align-items: baseline;
 }
 .toggle {
+  background-color: @blue;
   text-align: center;
 }
 .page-header__toggle {
@@ -32,4 +55,6 @@
 }
 .page-header__text {
   text-align: center;
+  padding: 20px;
+  margin:0;
 }
